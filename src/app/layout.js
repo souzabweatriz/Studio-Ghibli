@@ -3,11 +3,11 @@ import "./globals.css";
 import Header from "../components/Header/Header"
 
 export const metadata = {
-  title: "Projeto Studio Ghibli",
-  description: "Projeto com personagens do Studio Ghibli",
-  icons: {
-      icon: "/favicon.ico",
-  },
+    title: "Projeto Studio Ghibli",
+    description: "Projeto com personagens do Studio Ghibli",
+    icons: {
+        icon: "/favicon.ico",
+    },
 };
 
 const poppins = localFont({

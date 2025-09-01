@@ -12,7 +12,7 @@ body p {
 }
 
 body h1 {
-  font-family: var(--font-poppns);
+  font-family: var(--font-poppins);
   font-weight: 700;
 }
 
@@ -22,7 +22,41 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background: 
-  linear-gradient(rgba(255, 253, 214, 0.6), rgba(255, 253, 214, 0.6)),
+  linear-gradient(rgba(255, 253, 214, 0.085), rgba(255, 253, 214, 0.244)),
   url("/images/background.jpg");
-background-size: cover;
+  background-size: cover;
+}
+
+@media (max-width: 1024px) {
+  body h1 {
+    font-size: 2rem;
+  }
+
+  body p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  body h1 {
+    font-size: 1.5rem;
+  }
+
+  body p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  body h1 {
+    font-size: 1.2rem;
+  }
+
+  body p {
+    font-size: 0.8rem;
+  }
+
+  body {
+    background-attachment: scroll; 
+  }
 }
