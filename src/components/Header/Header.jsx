@@ -18,7 +18,7 @@ export default function Header() {
                 <Link className={styles.link} href="/">Home</Link>
                 <Link className={styles.link} href="/about">About API</Link>
                 <Link className={styles.link} href="/contact">Contact</Link>
-                <Link className={styles.link} href="/demonstration">Demonstration</Link>
+                <Link className={styles.link} href="/characters">Characters</Link>
             </div>
         </div>
     );
