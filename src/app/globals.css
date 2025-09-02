@@ -22,7 +22,7 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background: 
-  linear-gradient(rgba(255, 253, 214, 0.085), rgba(255, 253, 214, 0.244)),
+  linear-gradient(rgba(26, 24, 1, 0.085), rgba(237, 230, 90, 0.096)),
   url("/images/background.jpg");
   background-size: cover;
 }
