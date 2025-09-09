@@ -1,24 +1,38 @@
 .container {
-    padding: 16px;
+    width: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background: radial-gradient(circle, #e36a96b4 0%, #F0F0F0 100%);
+}
 
+.pagination {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
 }
 
 .title {
-    font-size: 2rem;
+    margin-top: 2rem;
+    font-size: 2.5rem;
     font-weight: bold;
     margin-bottom: 24px;
     text-align: center;
+    color: #faf8f8 ; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.692); 
+    letter-spacing: 1.5px;
 }
 
-.cards {
+
+.cards{
+    margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
-    gap: 16px;
     justify-content: center;
-    width: 100%;
+    width: 80%;
+    height: auto;
+    border-radius: 1rem;
 }
 
 .cardLink {

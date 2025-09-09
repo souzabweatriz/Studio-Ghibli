@@ -13,6 +13,16 @@ Bem-vindo ao **Projeto Studio Ghibli**! 🎥✨ Este projeto utiliza a [API púb
 
 ---
 
+#F294A5 – Rosa claro
+
+#E36A97 – Rosa médio/vibrante
+
+#D1F8E6 – Verde menta claro
+
+#F9F3B7 – Amarelo pastel
+
+#FFFDD6 – Creme clarinho / Amarelo muito suave
+
 ## 🛠️ Tecnologias Utilizadas
 
 As principais tecnologias usadas neste projeto são:
